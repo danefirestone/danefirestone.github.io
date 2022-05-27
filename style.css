@@ -83,6 +83,15 @@ section ul{
     padding-left: 1.5em;
 }
 
+#aboutMe {
+    display: inline-block;
+}
+
+#image {
+    display: inline-block;
+}
+
+
 #portfolioItems {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -91,7 +100,7 @@ section ul{
     grid-column-gap: 1em;
 }
 
-#products article {
+#portfolio article {
     background: #ccc;
     padding: 1em;
 }
